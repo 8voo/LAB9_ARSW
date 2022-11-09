@@ -18,24 +18,44 @@
 ### Probando la app
 ![image](https://user-images.githubusercontent.com/98104282/200944311-8d15e99f-00b6-4f76-9f2a-2fbd89d4bc73.png)
 - Para 10000
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200944847-e8324b22-be97-4936-8124-6aad02e0a2e6.png)
 - Para 1010000
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200945009-787d7ed1-199f-4fd4-9396-e09a146c0576.png)
 - Para 1020000
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200945301-96088c0e-71bf-474b-b9bc-fa65475a4c5f.png)
 - Para 1030000
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200945687-049cb48d-6b57-45e9-9b96-821b7537a113.png)
 - Para 1040000
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200946006-3e8cd592-ca19-46b0-83ff-8f5f86ba3c0f.png)
 - Para 1050000
+
+
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040015587587395694/image.png)
 - Para 1060000
+
+
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040015259806740550/image.png)
 - Para 1070000
+
+
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040014793848934500/image.png)
 - Para 1080000
+
+
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040014614651482143/image.png)
 - Para 1090000
+
+
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040014416554500207/image.png)
 ### Rendimiento
 ![image](https://user-images.githubusercontent.com/98104282/200948099-a862e383-46a5-4fd5-83d9-3fb17d83b777.png)
@@ -44,6 +64,8 @@
 ### Se cambia el tamaño de la maquina
 ![image](https://user-images.githubusercontent.com/98104282/200953165-4c931b0c-9f04-45f0-b510-53ea2a628b21.png)
 - Pruebas
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200954724-944a2683-01ff-4c53-ad58-9ec1901a37bf.png)
 ![image](https://user-images.githubusercontent.com/98104282/200954751-b98ea237-5c5e-4610-9a07-837c888cd301.png)
 ![image](https://user-images.githubusercontent.com/98104282/200954795-86cafb3a-c288-4827-8fa6-878ec07bbd8f.png)
@@ -54,10 +76,30 @@
 ![image](https://user-images.githubusercontent.com/98104282/200955377-1e865452-3790-4890-8546-30f5ebe321ff.png)
 ![image](https://user-images.githubusercontent.com/98104282/200955475-eecf9fd1-cf4d-44df-9da8-8354a6870f01.png)
 - Uso de la cpu
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200955609-67cf3ab5-1161-4fe4-adc9-2b270cc6b7a0.png)
 - Peticiones concurrentes
+
+
 ![image](https://user-images.githubusercontent.com/98104282/200956683-c5629893-0f9b-4eba-b7ea-580da8ec438e.png)
 
+### Preguntas primera parte
+Preguntas
+
+1. ¿Cuántos y cuáles recursos crea Azure junto con la VM?
+2. ¿Brevemente describa para qué sirve cada recurso?
+3. ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando npm FibonacciApp.js? ¿Por qué debemos crear un Inbound port rule antes de acceder al servicio?
+4. Adjunte tabla de tiempos e interprete por qué la función tarda tando tiempo.
+5. Adjunte imágen del consumo de CPU de la VM e interprete por qué la función consume esa cantidad de CPU.
+6. Adjunte la imagen del resumen de la ejecución de Postman. Interprete:
+7. Tiempos de ejecución de cada petición.
+8. Si hubo fallos documentelos y explique.
+9. ¿Cuál es la diferencia entre los tamaños B2ms y B1ls (no solo busque especificaciones de infraestructura)?
+10. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
+11. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
+12. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
+13. Aumente la cantidad de ejecuciones paralelas del comando de postman a 4. ¿El comportamiento del sistema es porcentualmente mejor?
 
 
 
