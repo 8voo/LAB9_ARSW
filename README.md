@@ -37,4 +37,33 @@
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040014614651482143/image.png)
 - Para 1090000
 ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040014416554500207/image.png)
+### Rendimiento
+![image](https://user-images.githubusercontent.com/98104282/200948099-a862e383-46a5-4fd5-83d9-3fb17d83b777.png)
+### Haciendo peticiones concurrentes 
+
+### Se cambia el tamaño de la maquina
+![image](https://user-images.githubusercontent.com/98104282/200953165-4c931b0c-9f04-45f0-b510-53ea2a628b21.png)
+- Pruebas
+![image](https://user-images.githubusercontent.com/98104282/200954724-944a2683-01ff-4c53-ad58-9ec1901a37bf.png)
+![image](https://user-images.githubusercontent.com/98104282/200954751-b98ea237-5c5e-4610-9a07-837c888cd301.png)
+![image](https://user-images.githubusercontent.com/98104282/200954795-86cafb3a-c288-4827-8fa6-878ec07bbd8f.png)
+![image](https://user-images.githubusercontent.com/98104282/200954893-ef69d4b2-2c80-4bca-bc8b-b1954cbe2549.png)
+![image](https://user-images.githubusercontent.com/98104282/200954996-c8a23fa4-3907-4a6a-b18d-ac1c78e087dd.png)
+![image](https://user-images.githubusercontent.com/98104282/200955152-bcef666a-dfb9-447c-86d0-e94153170341.png)
+![image](https://user-images.githubusercontent.com/98104282/200955269-ea175b94-fa51-4167-860c-af19c0a317f4.png)
+![image](https://user-images.githubusercontent.com/98104282/200955377-1e865452-3790-4890-8546-30f5ebe321ff.png)
+![image](https://user-images.githubusercontent.com/98104282/200955475-eecf9fd1-cf4d-44df-9da8-8354a6870f01.png)
+- Uso de la cpu
+![image](https://user-images.githubusercontent.com/98104282/200955609-67cf3ab5-1161-4fe4-adc9-2b270cc6b7a0.png)
+- Peticiones concurrentes
+![image](https://user-images.githubusercontent.com/98104282/200956683-c5629893-0f9b-4eba-b7ea-580da8ec438e.png)
+
+
+
+
+
+
+
+
+
 
