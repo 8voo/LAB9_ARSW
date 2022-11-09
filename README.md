@@ -88,18 +88,34 @@
 Preguntas
 
 1. ¿Cuántos y cuáles recursos crea Azure junto con la VM?
+Crea 7 recursos
+![image](https://user-images.githubusercontent.com/98104282/200959058-69c90eb1-19d6-47d1-bc9e-bac6098c412f.png)
+![image](https://user-images.githubusercontent.com/98104282/200959087-269b6b19-9fda-4325-823a-d69849b66098.png)
 2. ¿Brevemente describa para qué sirve cada recurso?
+- Clave: es la clave ssh con la cual se peude aceder por medio de ssh a la maquina virtual
+- vnet: es la red virtual que se creal para la maquina virtual
+- Interfaz de red es la tarjeta de red virtual que tiene la maquina creada anteriormente
+- VERTICAL_SCALABILITY es como tal la maquina virtual completa
+- VERTICAL_SCALABILITY-ip es la dirección IP publica de la maquina vitual
+- VERTICAL_SCALABILITY-nsg Es la configuración de seguridad de la maquina virtual
+- VERTICAL-SCALABILITY_OsDisk_1_5c1f9d7f83d3451898ce78f5a6a105aa es el disco duro de la maquina virtual creada
 3. ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando npm FibonacciApp.js? ¿Por qué debemos crear un Inbound port rule antes de acceder al servicio?
+- Esto pasa ya que la configuracion de seguridad de la maquina por defecto esta hecha para que no acepte peticione por ese puerto, por eso hay que configurarlo
 4. Adjunte tabla de tiempos e interprete por qué la función tarda tando tiempo.
 5. Adjunte imágen del consumo de CPU de la VM e interprete por qué la función consume esa cantidad de CPU.
 6. Adjunte la imagen del resumen de la ejecución de Postman. Interprete:
 7. Tiempos de ejecución de cada petición.
 8. Si hubo fallos documentelos y explique.
+Estas 5 preguntas estan mas arriba explicados
 9. ¿Cuál es la diferencia entre los tamaños B2ms y B1ls (no solo busque especificaciones de infraestructura)?
+A parte de el tamaño de la ram y el disco duro, tiene mas demora en el tiempo de respuesta y tiene numeros diferentes de E/S maxima por segundo
 10. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
+No es una solucion muy adecuada ya que el tiempo que baja no es muy relevante, el cambio que se ve es mas en el porcentaje de CPU que consume una petición
 11. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
 12. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
+En nuestro caso hubo mejora pero de unos pocos segundos cuando se hace una peticion unica
 13. Aumente la cantidad de ejecuciones paralelas del comando de postman a 4. ¿El comportamiento del sistema es porcentualmente mejor?
+
 
 
 
