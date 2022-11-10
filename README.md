@@ -114,11 +114,36 @@ No es una solucion muy adecuada ya que el tiempo que baja no es muy relevante, e
 11. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
 12. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
 En nuestro caso hubo mejora pero de unos pocos segundos cuando se hace una peticion unica
-13. Aumente la cantidad de ejecuciones paralelas del comando de postman a 4. ¿El comportamiento del sistema es porcentualmente mejor?
 
 
+## Parte 2
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040122929691762778/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040122966178013214/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040122994162401330/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123030858375248/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123060289818694/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123083559800854/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123102211887194/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123138572288050/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123161401888808/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123184948723802/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040123203835674625/unknown.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040126118373625856/image.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040127778495934464/image.png)
+- ![image](https://cdn.discordapp.com/attachments/898369871912534016/1040127961036226570/image.png)
+
+- Cuál es el propósito del Backend Pool?
+
+backend pool es el encargado de defnir el grupo de recursos que haran el trafico de una "load-balancing rule" o regla de equilibrio
 
 
+- ¿Cuál es el propósito del Health Probe?
+- ¿Cuál es el propósito de la Load Balancing Rule? ¿Qué tipos de sesión persistente existen, por qué esto es importante y cómo puede afectar la escalabilidad del sistema?.
+- ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+- ¿Qué son las Availability Zone y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea zone-redundant?
+- ¿Cuál es el propósito del Network Security Group?
+- Informe de newman 1 (Punto 2)
+- Presente el Diagrama de Despliegue de la solución.
 
 
 
