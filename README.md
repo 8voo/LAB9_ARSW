@@ -138,12 +138,31 @@ backend pool es el encargado de defnir el grupo de recursos que haran el trafico
 
 
 - ¿Cuál es el propósito del Health Probe?
+
+health probes o sondeo de estado es aquel que detecta el estado del endpoint del equilibrador, determina que instancias del "backend pool" recibiran nuevas conexiones
+
+
 - ¿Cuál es el propósito de la Load Balancing Rule? ¿Qué tipos de sesión persistente existen, por qué esto es importante y cómo puede afectar la escalabilidad del sistema?.
+
+"Load Balancing Rule" se define como la distribución del trafico entrante a todas las instancias del grupo de backend
+
+
 - ¿Qué es una Virtual Network? ¿Qué es una Subnet? ¿Para qué sirven los address space y address range?
+
+
+permite muchos tipos de recursos de Azure, como las máquinas virtuales, para comunicarse de forma segura entre usuarios, con Internet y con las redes locales
+
+
 - ¿Qué son las Availability Zone y por qué seleccionamos 3 diferentes zonas?. ¿Qué significa que una IP sea zone-redundant?
+
+
+Availability Zone son las regiones separadas tolerantes a errores o fallos, conectadas todas y evitando asi el fallo total
+
+
 - ¿Cuál es el propósito del Network Security Group?
-- Informe de newman 1 (Punto 2)
-- Presente el Diagrama de Despliegue de la solución.
+
+
+Los grupos de seguradad son utilizados para filtrar y monitorear el trafico de los recursos que se da dentro de una "Azure virtual network"
 
 
 
